@@ -176,3 +176,29 @@ section{ display: flex;  }
   font-size: 16px;
 
 }
+@media screen and (max-width: 767px) {
+  .login-btn {
+    display: none;
+  }
+  .body__main {
+    flex-direction: column;
+  }
+  .menu ul li{
+    position: static;
+  }
+  .feed {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 641px) {
+  .rightside h1,
+  .leftside,
+  .leftside img,
+  .rightside,
+  .rightside p,
+  .get-started-text,
+  .contact-sales-btn,
+  {
+    display: none;
+  }
+}
